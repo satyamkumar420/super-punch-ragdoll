@@ -11,7 +11,7 @@ export const ko: TranslationKeys = {
   editor: '에디터',
   level_editor: '레벨 에디터 열기',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: '슈퍼 펀치 래그돌',
   loading: '로딩 중...',
   loading_game: '게임 로딩 중...',

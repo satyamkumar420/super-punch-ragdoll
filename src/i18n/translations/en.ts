@@ -19,7 +19,7 @@ export const en: TranslationKeys = {
   paused_description: 'GAME IS PAUSED',
   resume: 'RESUME',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'SUPER PUNCH RAGDOLL',
   loading: 'LOADING...',
   loading_game: 'LOADING GAME...',

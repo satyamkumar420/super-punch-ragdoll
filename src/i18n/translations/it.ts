@@ -11,7 +11,7 @@ export const it: TranslationKeys = {
   editor: 'Editor',
   level_editor: 'Apri editor livelli',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'SUPER PUNCH RAGDOLL',
   loading: 'CARICAMENTO...',
   loading_game: 'CARICAMENTO GIOCO...',

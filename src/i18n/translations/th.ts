@@ -11,7 +11,7 @@ export const th: TranslationKeys = {
   editor: 'ตัวแก้ไข',
   level_editor: 'เปิดตัวแก้ไขด่าน',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'ซูเปอร์พันช์ แร็กดอลล์',
   loading: 'กำลังโหลด...',
   loading_game: 'กำลังโหลดเกม...',

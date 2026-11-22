@@ -11,7 +11,7 @@ export const ms: TranslationKeys = {
   editor: 'Editor',
   level_editor: 'Buka Editor Tahap',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'SUPER PUNCH RAGDOLL',
   loading: 'MEMUATKAN...',
   loading_game: 'MEMUATKAN PERMAINAN...',

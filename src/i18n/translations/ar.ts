@@ -11,7 +11,7 @@ export const ar: TranslationKeys = {
   editor: 'المحرر',
   level_editor: 'فتح محرر المستويات',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'سوبر بانش راغدول',
   loading: 'جاري التحميل...',
   loading_game: 'جاري تحميل اللعبة...',

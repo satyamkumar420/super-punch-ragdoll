@@ -11,7 +11,7 @@ export const ja: TranslationKeys = {
   editor: 'エディター',
   level_editor: 'レベルエディターを開く',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'スーパーパンチラグドール',
   loading: '読み込み中...',
   loading_game: 'ゲームを読み込み中...',

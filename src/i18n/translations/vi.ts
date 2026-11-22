@@ -11,7 +11,7 @@ export const vi: TranslationKeys = {
   editor: 'Trình chỉnh sửa',
   level_editor: 'Mở trình chỉnh sửa cấp độ',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'SUPER PUNCH RAGDOLL',
   loading: 'ĐANG TẢI...',
   loading_game: 'ĐANG TẢI TRÒ CHƠI...',

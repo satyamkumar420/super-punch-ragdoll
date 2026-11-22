@@ -19,7 +19,7 @@ export const hi: TranslationKeys = {
   paused_description: 'गेम पॉज़ है',
   resume: 'जारी रखें',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'सुपर पंच रैगडॉल',
   loading: 'लोड हो रहा है...',
   loading_game: 'गेम लोड हो रहा है...',

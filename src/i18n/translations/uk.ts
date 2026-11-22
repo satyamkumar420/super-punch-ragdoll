@@ -11,7 +11,7 @@ export const uk: TranslationKeys = {
   editor: 'Редактор',
   level_editor: 'Відкрити редактор рівнів',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: 'СУПЕР ПАНЧ РЕГДОЛ',
   loading: 'ЗАВАНТАЖЕННЯ...',
   loading_game: 'ЗАВАНТАЖЕННЯ ГРИ...',

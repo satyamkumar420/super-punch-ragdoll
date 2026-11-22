@@ -11,7 +11,7 @@ export const zhHans: TranslationKeys = {
   editor: '编辑器',
   level_editor: '打开关卡编辑器',
 
-  brand_title: 'CLOUDZ FUN',
+  brand_title: '',
   game_title: '超级拳击布娃娃',
   loading: '加载中...',
   loading_game: '游戏加载中...',
