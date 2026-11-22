@@ -1,0 +1,116 @@
+{
+  "id": 46,
+  "name": "Level 46: Highway Trench Roadblock",
+  "subtitle": "",
+  "skyColor": [
+    0.82,
+    0.84,
+    0.92,
+    1
+  ],
+  "grassColor": [
+    0.35,
+    0.35,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.22,
+        0,
+        -1.25
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l46_safety_sprinter",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Sprint_Loop"
+      ]
+    },
+    {
+      "position": [
+        -1.15,
+        0,
+        1.25
+      ],
+      "rotationY": 0.45,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l46_jackhammer_repair",
+      "scale": 1
+    },
+    {
+      "position": [
+        0.95,
+        0,
+        1.25
+      ],
+      "rotationY": -1.57,
+      "animationName": "Interact",
+      "namePrefix": "l46_heavy_tar_pusher",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.05,
+        0,
+        0.35
+      ],
+      "rotationY": -2.1,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l46_road_inspector",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "tool_chest_crate",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -0.72,
+        0,
+        2.28
+      ],
+      "rotationY": -0.2,
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "safety_pylon_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.6,
+        0,
+        -0.5
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "safety_pylon_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3.86,
+        0,
+        -0.5
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

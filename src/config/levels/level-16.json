@@ -1,0 +1,96 @@
+{
+  "id": 16,
+  "name": "Level 16: Warehouse Cargo Crew",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "room",
+  "targets": [
+    {
+      "position": [
+        -2.08,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Push_Loop",
+      "namePrefix": "l16_pusher",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.74,
+        0,
+        0
+      ],
+      "rotationY": 1.76,
+      "animationName": "Push_Loop",
+      "namePrefix": "l16_lifter",
+      "scale": 1,
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "cargo_crate",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -0.23,
+        0,
+        0
+      ],
+      "rotationY": 0,
+      "scale": 2.4,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        3.08,
+        0,
+        0
+      ],
+      "rotationY": 0,
+      "scale": 1.44,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ],
+  "cameraRadius": 9.5
+}

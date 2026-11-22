@@ -1,0 +1,63 @@
+{
+  "id": 11,
+  "name": "Level 11: Street Boxing Sparring",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.75,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l11_boxer1",
+      "scale": 1
+    },
+    {
+      "position": [
+        0.75,
+        0,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Punch_Cross",
+      "namePrefix": "l11_boxer2",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        0,
+        0,
+        1.2
+      ],
+      "rotationY": 0,
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

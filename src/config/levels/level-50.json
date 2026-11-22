@@ -1,0 +1,182 @@
+{
+  "id": 50,
+  "name": "Level 50: Apex Grand Championship: Boulevard Colosseum",
+  "subtitle": "",
+  "skyColor": [
+    0.84,
+    0.9,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.36,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.22,
+        0,
+        -0.62
+      ],
+      "rotationY": 1.5707963267948966,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l50_grand_sprinter",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.2,
+        1
+      ],
+      "patrolSpeed": 1.5,
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        -1.55,
+        0,
+        0.72
+      ],
+      "rotationY": 2.37,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l50_diamond_gladiator",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.03,
+        0.14,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "axe_diamond.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.55,
+        0,
+        0.72
+      ],
+      "rotationY": -0.9424777960769379,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l50_golden_berserker",
+      "weaponModelPath": "axe_gold.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.025,
+        0.13,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "axe_gold.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.88
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l50_supreme_champion",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "scale": 1.1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "infinity_trophy_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0,
+        0,
+        0.35
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "arena_pylon_l",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.4,
+        0,
+        -0.4
+      ],
+      "scale": 0.95,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "arena_pylon_r",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3.4,
+        0,
+        -0.4
+      ],
+      "scale": 0.95,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

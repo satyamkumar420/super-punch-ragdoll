@@ -1,0 +1,107 @@
+{
+  "id": 26,
+  "name": "Level 26: Police Interception",
+  "subtitle": "",
+  "skyColor": [
+    0.72,
+    0.82,
+    0.94,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.34,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.35,
+        0,
+        0
+      ],
+      "rotationY": 1.3439035240356338,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l26_cop_aim",
+      "scale": 1,
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.05,
+        0.065,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1.1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.15,
+        0,
+        0.2
+      ],
+      "rotationY": -1.57,
+      "animationName": "Interact",
+      "namePrefix": "l26_suspect_hands",
+      "scale": 1
+    },
+    {
+      "position": [
+        -0.2,
+        0.09,
+        -1.1
+      ],
+      "rotationY": -1.57,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l26_cop_patrol",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        0.75,
+        2.15
+      ],
+      "patrolSpeed": 0.95
+    }
+  ],
+  "props": [
+    {
+      "name": "police_car",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        2.2,
+        0,
+        1.8
+      ],
+      "scale": 1.1,
+      "rotationY": -0.2,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "checkpoint_cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.38,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

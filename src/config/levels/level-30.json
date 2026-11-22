@@ -1,0 +1,122 @@
+{
+  "id": 30,
+  "name": "Level 30: Grand Finale: Boulevard Sprint",
+  "subtitle": "",
+  "skyColor": [
+    0.76,
+    0.86,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.34,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.8,
+        0,
+        -0.3
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l30_sprinter_front",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.0,
+        0.4
+      ],
+      "patrolSpeed": 1.35
+    },
+    {
+      "position": [
+        0.8,
+        0,
+        0.55
+      ],
+      "rotationY": -1.57,
+      "animationName": "Jog_Fwd_Loop",
+      "namePrefix": "l30_jogger_mid",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.4,
+        2.0
+      ],
+      "patrolSpeed": 1.05
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.35
+      ],
+      "rotationY": 3.14,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l30_celebrator_back",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "city_taxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        -2.4,
+        0,
+        2.1
+      ],
+      "scale": 1,
+      "rotationY": 0.25,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "city_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        2.4,
+        0,
+        2.1
+      ],
+      "scale": 1,
+      "rotationY": -0.25,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "lane_cone_1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -1.0,
+        0,
+        0.1
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "lane_cone_2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        1.0,
+        0,
+        0.95
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

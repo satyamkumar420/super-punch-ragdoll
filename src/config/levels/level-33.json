@@ -1,0 +1,129 @@
+{
+  "id": 33,
+  "name": "Level 33: Delivery Van Cargo Heist",
+  "subtitle": "",
+  "skyColor": [
+    0.68,
+    0.74,
+    0.82,
+    1
+  ],
+  "grassColor": [
+    0.3,
+    0.3,
+    0.34
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        1,
+        0,
+        -1.78
+      ],
+      "rotationY": -1.5707963267948966,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l33_courier_sprinter",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        0,
+        2
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -2.73,
+        0,
+        -0.22
+      ],
+      "rotationY": 0.23,
+      "animationName": "Push_Loop",
+      "namePrefix": "l33_box_lifter",
+      "scale": 1
+    },
+    {
+      "position": [
+        -0.3,
+        0,
+        0.5
+      ],
+      "rotationY": 3.14,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l33_loader_kneeling",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.01,
+        0,
+        0.7
+      ],
+      "rotationY": -2.4,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l33_supervisor",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "delivery_truck",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -2.5,
+        0,
+        1.9
+      ],
+      "rotationY": 0.15,
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "heavy_cargo_crate",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        0.04,
+        0,
+        -0.47
+      ],
+      "scale": 0.8,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "cardboard_stack",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        -0.54,
+        0,
+        0.11
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

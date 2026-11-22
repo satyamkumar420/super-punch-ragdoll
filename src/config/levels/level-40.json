@@ -1,0 +1,164 @@
+{
+  "id": 40,
+  "name": "Level 40: Grand Finale: Boulevard Championship",
+  "subtitle": "",
+  "skyColor": [
+    0.76,
+    0.86,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.34,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1,
+        0,
+        -0.58
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l40_grand_sprinter",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        0.6
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        1.89,
+        0,
+        0.15
+      ],
+      "rotationY": -1.15,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l40_center_dancer",
+      "scale": 1
+    },
+    {
+      "position": [
+        -1.27,
+        0,
+        4.48
+      ],
+      "rotationY": -1.5707963267948966,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l40_counter_jogger",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.27,
+        -0.27
+      ],
+      "patrolSpeed": 1.1,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.26,
+        0,
+        0.86
+      ],
+      "rotationY": 2.6179938779914944,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l40_hype_champion",
+      "scale": 1,
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "isPatrolling": false,
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "boulevard_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        2.5,
+        0,
+        2.1
+      ],
+      "rotationY": -0.22,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "championship_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        3.12,
+        0,
+        0.45
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "arena_cone_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.78,
+        0,
+        0.15
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "arena_cone_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3.64,
+        0,
+        0.15
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

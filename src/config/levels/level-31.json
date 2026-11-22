@@ -1,0 +1,163 @@
+{
+  "id": 31,
+  "name": "Level 31: Highway Roadblock Barricade",
+  "subtitle": "",
+  "skyColor": [
+    0.72,
+    0.82,
+    0.94,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.34,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.2,
+        0,
+        -0.3
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l31_runner",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2,
+        0.4
+      ],
+      "patrolSpeed": 1.3
+    },
+    {
+      "position": [
+        -1.8,
+        0,
+        0.6
+      ],
+      "rotationY": 1.3962634015954636,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l31_cop_guard",
+      "scale": 1,
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.05,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.1,
+        0,
+        0.9
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l31_chief_inspect",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.65,
+        0.85
+      ],
+      "patrolSpeed": 0.8,
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.15,
+        0,
+        0.6
+      ],
+      "rotationY": -1.57,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l31_sentry",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        2.91,
+        0,
+        2
+      ],
+      "rotationY": -0.25,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "barricade_cone_1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -0.8,
+        0,
+        -0.65
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "barricade_cone_2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        0.8,
+        0,
+        -0.65
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "roadside_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -2.7,
+        0,
+        0.8
+      ],
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 80,
+  "name": "Level 80: Deep Moss Trail: Three Champions",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.96,
+        0,
+        1.13
+      ],
+      "rotationY": 1.69,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l80_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.7,
+        0,
+        1.25
+      ],
+      "rotationY": 1.57,
+      "animationName": "Interact",
+      "namePrefix": "l80_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.9,
+        0,
+        0.8
+      ],
+      "rotationY": -1.61,
+      "animationName": "Interact",
+      "namePrefix": "l80_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0.23,
+        0,
+        1.25
+      ],
+      "rotationY": 1.57,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l80_jungle_target_4",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "workshop_race_car_rpc5",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        1.1,
+        0,
+        1.65
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_chair_xdmc",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.26,
+        0,
+        1.13
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0.6632251157578452,
+      "rotationZ": 0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 35,
+  "name": "Level 35: VIP Motorcade Crosswalk",
+  "subtitle": "",
+  "skyColor": [
+    0.65,
+    0.75,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.32,
+    0.38
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.8,
+        0,
+        -0.58
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l35_patrol_agent_1",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2,
+        0.3
+      ],
+      "patrolSpeed": 0.95
+    },
+    {
+      "position": [
+        0.8,
+        0,
+        0.17
+      ],
+      "rotationY": -1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l35_patrol_agent_2",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.3,
+        2
+      ],
+      "patrolSpeed": 0.95
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.1
+      ],
+      "rotationY": 3.14,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l35_vip_diplomat",
+      "scale": 1
+    },
+    {
+      "position": [
+        -1.6,
+        0,
+        1.56
+      ],
+      "rotationY": 2.1467549799530254,
+      "animationName": "Pistol_Idle_Loop",
+      "namePrefix": "l35_rear_security",
+      "scale": 1,
+      "animationNames": [
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.05,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "vip_escort_suv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        2.4,
+        0,
+        2
+      ],
+      "rotationY": -0.2,
+      "scale": 1.05,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

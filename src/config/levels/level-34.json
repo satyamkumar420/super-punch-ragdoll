@@ -1,0 +1,103 @@
+{
+  "id": 34,
+  "name": "Level 34: Formula Pit-Stop Crew",
+  "subtitle": "",
+  "skyColor": [
+    0.78,
+    0.88,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.35,
+    0.35,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.4,
+        0,
+        -1.43
+      ],
+      "rotationY": 1.57,
+      "animationName": "Jog_Fwd_Loop",
+      "namePrefix": "l34_flag_marshal",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        -0.6
+      ],
+      "patrolSpeed": 1.1
+    },
+    {
+      "position": [
+        -2.63,
+        0,
+        0.8
+      ],
+      "rotationY": 1.57,
+      "animationName": "Push_Loop",
+      "namePrefix": "l34_rear_pusher",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        0.6
+      ],
+      "rotationY": -1.57,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l34_mechanic_wheel",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "grand_prix_racer",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        0.58,
+        0,
+        0.6
+      ],
+      "rotationY": -0.35,
+      "scale": 0.85,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "pit_oil_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -1.43,
+        0,
+        0.8
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "pit_lane_cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        2.2,
+        0,
+        0.2
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

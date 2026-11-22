@@ -1,0 +1,105 @@
+{
+  "id": 72,
+  "name": "Level 72: Thunder Canopy: Storm Watchers",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.78,
+        0,
+        -0.57
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l72_jungle_target_1",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.3,
+        -0.9
+      ],
+      "patrolSpeed": 0.85,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        -0.7,
+        0,
+        1.25
+      ],
+      "rotationY": -3.13,
+      "animationName": "Roll",
+      "namePrefix": "l72_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Roll"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.7,
+        0,
+        0.8
+      ],
+      "rotationY": -3.12,
+      "animationName": "Roll",
+      "namePrefix": "l72_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Roll"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.1,
+        0,
+        1.25
+      ],
+      "rotationY": 3.94,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l72_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

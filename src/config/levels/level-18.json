@@ -1,0 +1,88 @@
+{
+  "id": 18,
+  "name": "Level 18: Crossfire Snipers",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.85,
+        0,
+        0
+      ],
+      "rotationY": 1.6,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l18_sniper1",
+      "scale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.85,
+        0,
+        0
+      ],
+      "rotationY": -1.56,
+      "animationName": "Pistol_Shoot",
+      "namePrefix": "l18_sniper2",
+      "scale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "animationNames": [
+        "Pistol_Shoot"
+      ],
+      "isPatrolling": false,
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordPosition": [
+        -0.04,
+        0,
+        -0.085
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        2.89,
+        0,
+        0
+      ],
+      "rotationY": -0.05,
+      "scale": 0.85,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": 43,
+  "name": "Level 43: Neon Dojo Street Sparring",
+  "subtitle": "",
+  "skyColor": [
+    0.88,
+    0.65,
+    0.52,
+    1
+  ],
+  "grassColor": [
+    0.38,
+    0.32,
+    0.36
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.7,
+        0,
+        0.45
+      ],
+      "rotationY": 1.2042771838760873,
+      "animationName": "Sword_Attack",
+      "namePrefix": "l43_swordsman_left",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.5,
+      "swordPosition": [
+        -0.05,
+        0.09,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "animationNames": [
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "swords/sword_wood.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.25,
+        0,
+        0.45
+      ],
+      "rotationY": -1.2042771838760873,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l43_swordsman_right",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        -0.025,
+        0.06,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "swords/sword_wood.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.55
+      ],
+      "rotationY": 3.14,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l43_dojo_master",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "scale": 1.08
+    },
+    {
+      "position": [
+        -0.48,
+        0,
+        -0.98
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l43_kata_student",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.1,
+        1.9
+      ],
+      "patrolSpeed": 1.15
+    }
+  ],
+  "props": [
+    {
+      "name": "dojo_cone_l",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.2,
+        0,
+        -0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "dojo_cone_r",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3.2,
+        0,
+        -0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

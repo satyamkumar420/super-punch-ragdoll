@@ -1,0 +1,167 @@
+{
+  "id": 39,
+  "name": "Level 39: SWAT High-Speed Tactical Intercept",
+  "subtitle": "",
+  "skyColor": [
+    0.7,
+    0.78,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.34,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.85,
+        0,
+        3.67
+      ],
+      "rotationY": 1.57,
+      "animationName": "Crouch_Fwd_Loop",
+      "namePrefix": "l39_suspect_rolling",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.8,
+        0.2
+      ],
+      "patrolSpeed": 1.1
+    },
+    {
+      "position": [
+        1.05,
+        0,
+        0.71
+      ],
+      "rotationY": -1.5707963267948966,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l39_swat_lead_aim",
+      "scale": 1,
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.31,
+        0,
+        0.6
+      ],
+      "rotationY": 1.98,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l39_swat_cover",
+      "scale": 1,
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "isPatrolling": false,
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.05,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        -0.69
+      ],
+      "rotationY": -1.3962634015954636,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l39_tactical_backup",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        1.1,
+        2.5
+      ],
+      "patrolSpeed": 0.9,
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "swat_police_interceptor",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -3.58,
+        0,
+        3.58
+      ],
+      "rotationY": 0.25,
+      "scale": 1.05,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "standoff_cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.26,
+        0,
+        -0.37
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "tactical_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        2.88,
+        0,
+        0.7
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

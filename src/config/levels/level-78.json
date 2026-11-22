@@ -1,0 +1,91 @@
+{
+  "id": 78,
+  "name": "Level 78: Lost Temple: Gatekeeper Squad",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.1,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Jump_Start",
+      "namePrefix": "l78_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Jump_Start",
+        "Jump_Loop",
+        "Jump_Land"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.7,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Roll",
+      "namePrefix": "l78_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Roll"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.7,
+        0,
+        0.8
+      ],
+      "rotationY": 3.54,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l78_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.31,
+        0,
+        1.25
+      ],
+      "rotationY": -1.49,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l78_jungle_target_4",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

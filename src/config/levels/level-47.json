@@ -1,0 +1,122 @@
+{
+  "id": 47,
+  "name": "Level 47: Grand Prix Pit-Stop Velocity",
+  "subtitle": "",
+  "skyColor": [
+    0.75,
+    0.85,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.34,
+    0.35,
+    0.4
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.01,
+        0,
+        -1.63
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l47_pit_sprinter",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        0.5
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        1.85,
+        0,
+        1.05
+      ],
+      "rotationY": -1.57,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l47_tire_technician",
+      "scale": 1
+    },
+    {
+      "position": [
+        -0.03,
+        0,
+        1.25
+      ],
+      "rotationY": 1.57,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l47_rear_jack_pusher",
+      "scale": 1,
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.43,
+        0,
+        0.5
+      ],
+      "rotationY": 1.72,
+      "animationName": "Interact",
+      "namePrefix": "l47_telemetry_marshal",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "f1_racer",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        0.8,
+        0,
+        1.1
+      ],
+      "rotationY": -0.15,
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "pit_cone_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.6,
+        0,
+        -0.45
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pit_cone_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        2.5,
+        0,
+        0.1
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

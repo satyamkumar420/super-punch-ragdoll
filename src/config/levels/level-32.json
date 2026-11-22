@@ -1,0 +1,109 @@
+{
+  "id": 32,
+  "name": "Level 32: Street Fighter Dojo Sparring",
+  "subtitle": "",
+  "skyColor": [
+    0.75,
+    0.85,
+    0.95,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.3,
+        0,
+        0.2
+      ],
+      "rotationY": 1.57,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l32_brawler_left",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.14,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l32_master_center",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.3,
+        0,
+        0.2
+      ],
+      "rotationY": -1.57,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l32_brawler_right",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "street_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        0,
+        0,
+        -0.05
+      ],
+      "rotationY": 0,
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sparring_crate_left",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.2,
+        0,
+        0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sparring_crate_right",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        2.2,
+        0,
+        0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 38,
+  "name": "Level 38: Arcane Boulevard Syndicate",
+  "subtitle": "",
+  "skyColor": [
+    0.32,
+    0.26,
+    0.52,
+    1
+  ],
+  "grassColor": [
+    0.26,
+    0.22,
+    0.36
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.4,
+        0,
+        0.15
+      ],
+      "rotationY": 1.3,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l38_fire_cultist_l",
+      "magicFx": "fire",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.75
+      ],
+      "rotationY": 3.14,
+      "animationName": "Spell_Simple_Shoot",
+      "namePrefix": "l38_arcane_archon",
+      "magicFx": "arcane",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        0.15
+      ],
+      "rotationY": -1.3,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l38_fire_cultist_r",
+      "magicFx": "fire",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.05
+      ],
+      "rotationY": -1.57,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l38_shadow_patrol",
+      "magicFx": "arcane",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.5,
+        1.5
+      ],
+      "patrolSpeed": 1.2,
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "name": "arcane_campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        0,
+        0,
+        0.25
+      ],
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "relic_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        2.1,
+        0,
+        0.8
+      ],
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

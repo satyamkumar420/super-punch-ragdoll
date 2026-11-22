@@ -1,0 +1,70 @@
+{
+  "id": 9,
+  "name": "Level 9: Sprinter Track",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l9_sprinter",
+      "scale": 1.05,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.6,
+        2.6
+      ],
+      "patrolSpeed": 2.2
+    }
+  ],
+  "props": [
+    {
+      "name": "cone_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "cone_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

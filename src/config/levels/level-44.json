@@ -1,0 +1,139 @@
+{
+  "id": 44,
+  "name": "Level 44: Armored Convoy Tactical Escort",
+  "subtitle": "",
+  "skyColor": [
+    0.65,
+    0.74,
+    0.85,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.34,
+    0.38
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.6,
+        0,
+        -0.87
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l44_lead_bodyguard",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.9,
+        1.7
+      ],
+      "patrolSpeed": 1.1
+    },
+    {
+      "position": [
+        -2.1,
+        0,
+        0.85
+      ],
+      "rotationY": 1.2,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l44_cover_marksman",
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "scale": 1
+    },
+    {
+      "position": [
+        0.1,
+        0,
+        1.45
+      ],
+      "rotationY": 3.14,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l44_diplomat_vip",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.75,
+        0,
+        0.85
+      ],
+      "rotationY": -1.6,
+      "animationName": "Pistol_Idle_Loop",
+      "namePrefix": "l44_flank_sentry",
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -2.7,
+        0,
+        2.3
+      ],
+      "rotationY": 0.25,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "escort_suv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        2.6,
+        0,
+        2.1
+      ],
+      "rotationY": -0.22,
+      "scale": 1.05,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "checkpoint_cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.12,
+        0,
+        -0.65
+      ],
+      "scale": 0.95,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

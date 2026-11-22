@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://www.youtube.com/game_api/v1"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="alternate icon" href="./favicon.ico" />
+    <title>Super Punch Ragdoll</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <!-- Cloudz Fun Arcade Loading Screen (Matching Draw & Drive) -->
+      <div id="loading-screen">
+        <div class="loader-content">
+          <!-- Branding Logo & App Title -->
+          <div class="loader-branding">
+            <img
+              src="logo.webp"
+              alt="cloudz.fun"
+              class="loader-logo"
+            />
+            <h1 class="loader-brand-title">cloudz.fun</h1>
+          </div>
+
+          <!-- Game Title & Subtitle -->
+          <div class="loader-game-info">
+            <h2 class="loader-title" data-i18n="game_title">SUPER PUNCH RAGDOLL</h2>
+            <p class="loader-subtitle" data-i18n="loading">LOADING...</p>
+          </div>
+
+          <!-- Progress Bar & Percentage -->
+          <div class="loader-progress-container">
+            <div class="loader-bar-bg">
+              <div class="loader-bar-fill"></div>
+            </div>
+            <p class="loader-percent">1%</p>
+          </div>
+        </div>
+      </div>
+
+      <canvas id="renderCanvas" class="playable-canvas" tabindex="0"></canvas>
+
+      <!-- Hyper-Casual Clean Top HUD -->
+      <header id="ui-overlay">
+        <!-- Coin Counter on Left (White BG with 3D Green styling) -->
+        <div id="left-hud">
+          <div id="score-badge" class="hud-pill coin-pill">
+            <svg class="coin-svg" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true">
+              <defs>
+                <linearGradient id="coinRimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#fde047" />
+                  <stop offset="50%" stop-color="#eab308" />
+                  <stop offset="100%" stop-color="#ca8a04" />
+                </linearGradient>
+                <linearGradient id="coinFaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#fef08a" />
+                  <stop offset="40%" stop-color="#facc15" />
+                  <stop offset="100%" stop-color="#eab308" />
+                </linearGradient>
+              </defs>
+              <ellipse cx="16" cy="18" rx="13.5" ry="11.5" fill="#b45309" />
+              <ellipse cx="16" cy="16" rx="13.5" ry="11.5" fill="url(#coinRimGrad)" stroke="#b45309" stroke-width="1.2" />
+              <ellipse cx="16" cy="15.5" rx="10.5" ry="9" fill="url(#coinFaceGrad)" stroke="#ca8a04" stroke-width="0.8" />
+              <path d="M16 10.5 L17.5 14 L21 14.3 L18.3 16.5 L19.1 20 L16 18.1 L12.9 20 L13.7 16.5 L11 14.3 L14.5 14 Z" fill="#fef9c3" stroke="#d97706" stroke-width="0.7" stroke-linejoin="round" />
+              <path d="M7 14 C8 9.5 14 7.5 21 8" stroke="rgba(255,255,255,0.85)" stroke-width="1.5" stroke-linecap="round" fill="none" />
+            </svg>
+            <span id="score-val">0</span>
+          </div>
+        </div>
+
+        <!-- Level Badge in Center (Display Only) -->
+        <div id="center-hud">
+          <div id="level-badge" class="hud-pill btn-level-hud">
+            <span id="level-badge-text">LEVEL 1</span>
+          </div>
+        </div>
+
+        <!-- Controls on Right (Editor & Settings Menu) -->
+        <div id="right-hud">
+          <!-- Editor icon commented out from HUD
+          <button id="editor-btn" class="btn-3d btn-3d-icon btn-3d-orange" type="button" title="Level Editor" aria-label="Level Editor" data-i18n-title="editor">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9"/>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+            </svg>
+          </button>
+          -->
+          <button id="settings-btn" class="btn-3d btn-3d-icon btn-3d-indigo" type="button" title="Settings" aria-label="Settings" data-i18n-title="settings">
+            <svg class="settings-gear-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Dynamic Aim Hint -->
+      <div id="tap-hint" class="hidden">🥊 Tap anywhere to punch ragdolls!</div>
+
+      <!-- 3D Chamber Level Victory Modal (Bright Cartoon Arcade Theme) -->
+      <div id="victory-banner" class="modal hidden">
+        <div class="modal-card chamber-card">
+          <!-- 3D Ribbon Banner on top of chamber -->
+          <div class="chamber-ribbon">
+            <span class="ribbon-text" data-i18n="level_cleared">LEVEL CLEARED!</span>
+          </div>
+
+          <!-- 3D Golden Stars Podium -->
+          <div class="stars-podium" id="stars-podium">
+            <div class="star-badge star-left" id="star-badge-1" data-star-index="1">
+              <svg viewBox="0 0 24 24" class="star-slot-svg" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <svg viewBox="0 0 24 24" class="star-svg">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <div class="star-burst-ring" aria-hidden="true"></div>
+            </div>
+            <div class="star-badge star-center" id="star-badge-2" data-star-index="2">
+              <svg viewBox="0 0 24 24" class="star-slot-svg" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <svg viewBox="0 0 24 24" class="star-svg">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <div class="star-burst-ring" aria-hidden="true"></div>
+            </div>
+            <div class="star-badge star-right" id="star-badge-3" data-star-index="3">
+              <svg viewBox="0 0 24 24" class="star-slot-svg" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <svg viewBox="0 0 24 24" class="star-svg">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <div class="star-burst-ring" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <!-- Recessed Stats Plate -->
+          <div class="chamber-plate">
+            <span class="plate-title" data-i18n="all_targets_down">ALL TARGETS DOWN!</span>
+            <span id="victory-score-badge" class="plate-subtitle">+50 COINS</span>
+          </div>
+
+          <!-- 3D Actions in Victory Modal -->
+          <div class="victory-buttons-group">
+            <!-- 3D 2X Double Coins Rewarded Ad Button -->
+            <button id="double-coins-btn" class="btn-3d btn-3d-pill btn-3d-yellow btn-3d-lg" type="button">
+              <svg class="ad-play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+                <polygon points="6 4 20 12 6 20 6 4"/>
+              </svg>
+              <span id="double-coins-btn-text" data-i18n="double_coins">2X COINS</span>
+            </button>
+
+            <!-- 3D Collect Coins Action Button (Appears First) -->
+            <button id="collect-btn" class="btn-3d btn-3d-pill btn-3d-indigo btn-3d-lg" type="button">
+              <svg class="coin-svg-btn" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
+                <circle cx="16" cy="16" r="14" fill="#b45309" />
+                <circle cx="16" cy="15" r="13" fill="url(#coinRimGrad)" stroke="#b45309" stroke-width="1.2" />
+                <circle cx="16" cy="15" r="10" fill="url(#coinFaceGrad)" stroke="#ca8a04" stroke-width="0.8" />
+                <path d="M16 9.5 L17.5 13 L21 13.3 L18.3 15.5 L19.1 19 L16 17.1 L12.9 19 L13.7 15.5 L11 13.3 L14.5 13 Z" fill="#fef9c3" stroke="#d97706" stroke-width="0.7" stroke-linejoin="round" />
+              </svg>
+              <span data-i18n="collect">COLLECT</span>
+            </button>
+          </div>
+
+          <!-- 3D Action Button (Appears After Collect) -->
+          <button id="next-btn" class="btn-3d btn-3d-pill btn-3d-green btn-3d-lg hidden" type="button">
+            <span id="next-btn-text" data-i18n="next_level">NEXT LEVEL</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m9 18 6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3D Chamber Language Selection Modal -->
+      <div id="language-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
+        <div class="modal-card chamber-card language-modal-card">
+          <!-- 3D Ribbon Banner on top of chamber -->
+          <div class="chamber-ribbon">
+            <span id="lang-modal-title" class="ribbon-text" data-i18n="select_language">SELECT LANGUAGE</span>
+          </div>
+
+          <!-- Circular 3D Close Button on Top Right -->
+          <button id="lang-modal-close" class="modal-close-circle" type="button" aria-label="Close" title="Close" data-i18n-title="close">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+              <line x1="5" y1="5" x2="19" y2="19" />
+              <line x1="19" y1="5" x2="5" y2="19" />
+            </svg>
+          </button>
+
+          <!-- Scrollable Language Grid -->
+          <div class="language-grid-container">
+            <div id="language-grid" class="language-grid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D Chamber Level Selection Modal -->
+      <div id="level-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="level-modal-title">
+        <div class="modal-card chamber-card level-modal-card">
+          <!-- 3D Ribbon Banner on top of chamber -->
+          <div class="chamber-ribbon">
+            <span id="level-modal-title" class="ribbon-text" data-i18n="select_level">SELECT LEVEL</span>
+          </div>
+
+          <!-- Circular 3D Close Button on Top Right -->
+          <button id="level-modal-close" class="modal-close-circle" type="button" aria-label="Close" title="Close" data-i18n-title="close">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+              <line x1="5" y1="5" x2="19" y2="19" />
+              <line x1="19" y1="5" x2="5" y2="19" />
+            </svg>
+          </button>
+
+          <!-- Level Progress Pill -->
+          <div class="level-modal-header-stats">
+            <span id="level-progress-text" class="level-progress-pill">1 / 120 UNLOCKED</span>
+          </div>
+
+          <!-- Scrollable Level Grid Container -->
+          <div class="level-grid-container" id="level-grid-container">
+            <div id="level-grid" class="level-grid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D Chamber Game Paused Modal -->
+      <div id="pause-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="pause-modal-title">
+        <div class="modal-card chamber-card pause-modal-card">
+          <!-- 3D Ribbon Banner on top of chamber -->
+          <div class="chamber-ribbon">
+            <span id="pause-modal-title" class="ribbon-text" data-i18n="game_paused">PAUSED</span>
+          </div>
+
+          <!-- Recessed Stats Plate -->
+          <div class="chamber-plate">
+            <span class="plate-title" data-i18n="paused_description">GAME IS PAUSED</span>
+          </div>
+
+          <!-- 3D Resume Button -->
+          <div class="pause-buttons-group">
+            <button id="pause-resume-btn" class="btn-3d btn-3d-pill btn-3d-green btn-3d-lg" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <polygon points="6 4 20 12 6 20 6 4"/>
+              </svg>
+              <span data-i18n="resume">RESUME</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D Chamber Settings & Controls Modal -->
+      <div id="settings-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="settings-modal-title">
+        <div class="modal-card chamber-card settings-modal-card">
+          <!-- 3D Ribbon Banner on top of chamber -->
+          <div class="chamber-ribbon">
+            <span id="settings-modal-title" class="ribbon-text" data-i18n="settings">SETTINGS</span>
+          </div>
+
+          <!-- Circular 3D Close Button on Top Right -->
+          <button id="settings-modal-close" class="modal-close-circle" type="button" aria-label="Close" title="Close" data-i18n-title="close">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+              <line x1="5" y1="5" x2="19" y2="19" />
+              <line x1="19" y1="5" x2="5" y2="19" />
+            </svg>
+          </button>
+
+          <!-- Subtitle / Status Plate -->
+          <div class="chamber-plate settings-subtitle-plate">
+            <span class="plate-title" data-i18n="game_controls">GAME CONTROLS</span>
+            <span id="settings-level-indicator" class="plate-subtitle">LEVEL 1</span>
+          </div>
+
+          <!-- Settings Options Menu -->
+          <div class="settings-menu-list">
+            <!-- 1. Select Level Item -->
+            <button id="settings-level-btn" class="settings-item-btn" type="button">
+              <div class="settings-item-icon settings-icon-indigo">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="7" rx="1.5"/>
+                  <rect x="14" y="3" width="7" height="7" rx="1.5"/>
+                  <rect x="14" y="14" width="7" height="7" rx="1.5"/>
+                  <rect x="3" y="14" width="7" height="7" rx="1.5"/>
+                </svg>
+              </div>
+              <div class="settings-item-text">
+                <span class="settings-item-title" data-i18n="select_level">SELECT LEVEL</span>
+                <span id="settings-level-sub" class="settings-item-sub">Choose any unlocked level</span>
+              </div>
+              <div class="settings-item-action">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </button>
+
+            <!-- 2. Sound Toggle Item -->
+            <button id="sound-btn" class="settings-item-btn" type="button" aria-label="Toggle Sound" data-i18n-title="toggle_sound">
+              <div class="settings-item-icon settings-icon-cyan" id="settings-sound-icon-box">
+                <svg id="sound-icon-on" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                </svg>
+                <svg id="sound-icon-off" class="hidden" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                  <line x1="22" y1="9" x2="16" y2="15" />
+                  <line x1="16" y1="9" x2="22" y2="15" />
+                </svg>
+              </div>
+              <div class="settings-item-text">
+                <span class="settings-item-title" data-i18n="sound">SOUND EFFECTS</span>
+                <span id="settings-sound-sub" class="settings-item-sub">Audio & game chimes</span>
+              </div>
+              <div class="settings-item-action">
+                <span id="sound-toggle-badge" class="settings-toggle-badge sound-on">ON</span>
+              </div>
+            </button>
+
+            <!-- 3. Language Selector Item -->
+            <button id="lang-btn" class="settings-item-btn" type="button" aria-label="Language" data-i18n-title="select_language">
+              <div class="settings-item-icon settings-icon-purple">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </div>
+              <div class="settings-item-text">
+                <span class="settings-item-title" data-i18n="language">LANGUAGE</span>
+                <span id="settings-lang-sub" class="settings-item-sub">English</span>
+              </div>
+              <div class="settings-item-action">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

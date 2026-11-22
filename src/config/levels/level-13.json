@@ -1,0 +1,76 @@
+{
+  "id": 13,
+  "name": "Level 13: Traffic Checkpoint",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.2,
+        0,
+        0
+      ],
+      "rotationY": 2.9,
+      "animationName": "Idle_Torch_Loop",
+      "namePrefix": "l13_officer",
+      "scale": 1
+    },
+    {
+      "position": [
+        0.9,
+        0,
+        0
+      ],
+      "rotationY": -1.2,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l13_driver",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "police_car",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        3.2,
+        0,
+        0
+      ],
+      "rotationY": -0.3,
+      "scale": 0.85,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -0.1,
+        0,
+        0
+      ],
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

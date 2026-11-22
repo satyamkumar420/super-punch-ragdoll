@@ -1,0 +1,54 @@
+{
+  "id": 7,
+  "name": "Level 7: Arcade Street Gamer",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Interact",
+      "namePrefix": "l7_gamer",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "arcade_cab",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -0.95,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "scale": 1.8,
+      "hasCollision": false,
+      "castShadow": true,
+      "isDestructible": true,
+      "isMovable": true,
+      "isPunchable": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 25,
+  "name": "Level 25: Triple Threat Sparring",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.25,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l25_spar_boxer1",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.75
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l25_spar_master",
+      "scale": 1.05,
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "isPatrolling": false,
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.25,
+        0,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Punch_Cross",
+      "namePrefix": "l25_spar_boxer2",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "corner_crate_left",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.1,
+        0,
+        0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "corner_crate_right",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        2.1,
+        0,
+        0.5
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 62,
+  "name": "Level 62: Overgrown Pass: Forest Barricade",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l62_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.21
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l62_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.2,
+        1.2
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 1.57,
+      "animationName": "Roll",
+      "namePrefix": "l62_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Roll"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "large_crate_62_1",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -1.57,
+        0,
+        0.4
+      ],
+      "rotationY": 0,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 3,
+      "isMovable": true,
+      "mass": 2
+    }
+  ]
+}

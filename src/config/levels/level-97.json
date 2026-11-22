@@ -1,0 +1,119 @@
+{
+  "id": 97,
+  "name": "Level 97: Great Canopy Ridge: High Alert",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Interact",
+      "namePrefix": "l97_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        -1.4,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l97_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": -2.99,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l97_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        1.25
+      ],
+      "rotationY": -3,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l97_jungle_target_4",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "rotationY": -2.01,
+      "animationName": "Jump_Loop",
+      "namePrefix": "l97_jungle_target_5",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Jump_Loop",
+        "Jump_Start",
+        "Jump_Land"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "room_boombox_4ot3",
+      "modelPath": "boombox.glb",
+      "position": [
+        1.32,
+        0.01,
+        0.54
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

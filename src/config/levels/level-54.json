@@ -1,0 +1,89 @@
+{
+  "id": 54,
+  "name": "Level 54: Bamboo Pathway: Sprinting Warriors",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        2.27
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l54_jungle_target_1",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3,
+        -0.6
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.11
+      ],
+      "rotationY": 1.57,
+      "animationName": "Jog_Fwd_Loop",
+      "namePrefix": "l54_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.2,
+        1.2
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.3
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l54_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        0.6,
+        3
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": 87,
+  "name": "Level 87: Gorilla Plateau: Heavy Boulders",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.68,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l87_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.4,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Interact",
+      "namePrefix": "l87_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.54,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l87_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        1.25
+      ],
+      "rotationY": -2.23,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l87_jungle_target_4",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "rotationY": -2.2,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l87_jungle_target_5",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "room_chair_gmjd",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        3.05,
+        0,
+        0.95
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 2.234021442552742,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_chair_gmjd_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.81,
+        0,
+        1.06
+      ],
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.24,
+      "rotationZ": 0
+    }
+  ]
+}

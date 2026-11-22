@@ -1,0 +1,95 @@
+{
+  "id": 58,
+  "name": "Level 58: Forgotten Shrine: Sacred Grounds",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.63,
+        0,
+        0.8
+      ],
+      "rotationY": 2.97,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l58_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Punch_Cross",
+      "namePrefix": "l58_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Punch_Cross",
+        "Punch_Jab"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 3.54,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l58_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "bench_58_1",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -1.4,
+        0,
+        1.02
+      ],
+      "rotationY": -3.07177948351002,
+      "scale": 1.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 99,
+      "isMovable": false,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 60,
+  "name": "Level 60: Totem Clearing: Tribal Ceremony",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        0.27,
+        0,
+        0.8
+      ],
+      "rotationY": 1.4,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l60_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.45,
+        0,
+        1.25
+      ],
+      "rotationY": 2.19,
+      "animationName": "Interact",
+      "namePrefix": "l60_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2,
+        0,
+        1.05
+      ],
+      "rotationY": -1.44,
+      "animationName": "Punch_Jab",
+      "namePrefix": "l60_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": 64,
+  "name": "Level 64: Emerald Falls: Riverside Patrol",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 1.57,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l64_jungle_target_1",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.25
+      ],
+      "rotationY": -2.66,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l64_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 3.54,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l64_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

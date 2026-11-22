@@ -1,0 +1,95 @@
+{
+  "id": 57,
+  "name": "Level 57: Rainforest Ridge: Hidden Camp",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l57_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.01
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l57_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.025,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 3.543018381548489,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l57_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.05,
+        0.09,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "props": []
+}

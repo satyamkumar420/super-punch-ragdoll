@@ -1,0 +1,98 @@
+{
+  "id": 45,
+  "name": "Level 45: Arcane Sanctum of the Fire Archon",
+  "subtitle": "",
+  "skyColor": [
+    0.35,
+    0.28,
+    0.55,
+    1
+  ],
+  "grassColor": [
+    0.26,
+    0.22,
+    0.35
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.35,
+        0,
+        0.35
+      ],
+      "rotationY": 1.15,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l45_pyromancer_vanguard",
+      "magicFx": "fire",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.7
+      ],
+      "rotationY": 3.14,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l45_fire_archon",
+      "magicFx": "fire",
+      "scale": 1.1,
+      "animationNames": [
+        "Spell_Simple_Idle_Loop"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.35,
+        0,
+        0.35
+      ],
+      "rotationY": -1.15,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l45_arcane_sorcerer",
+      "magicFx": "arcane",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.09
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Formal_Loop",
+      "namePrefix": "l45_wandering_spectre",
+      "magicFx": "arcane",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.9,
+        1.9
+      ],
+      "patrolSpeed": 1.25
+    }
+  ],
+  "props": [
+    {
+      "name": "relic_vault",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0.06,
+        0,
+        0.46
+      ],
+      "rotationY": 0.35,
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

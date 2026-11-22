@@ -1,0 +1,98 @@
+{
+  "id": 15,
+  "name": "Level 15: Dual Sprint Race",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "room",
+  "targets": [
+    {
+      "position": [
+        -0.85,
+        0,
+        0
+      ],
+      "rotationY": 1.605702911834783,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l15_sprinter",
+      "scale": 1,
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.85,
+        1.15
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        0.85,
+        0,
+        1.41
+      ],
+      "rotationY": -1.74,
+      "animationName": "Jog_Fwd_Loop",
+      "namePrefix": "l15_jogger",
+      "scale": 1,
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.15,
+        2.85
+      ],
+      "patrolSpeed": 1.2
+    }
+  ],
+  "props": [],
+  "cameraRadius": 9,
+  "cameraTarget": [
+    0.2,
+    0.95,
+    0
+  ],
+  "cameraAlpha": -1.583,
+  "cameraBeta": 1.456
+}

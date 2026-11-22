@@ -1,0 +1,166 @@
+{
+  "id": 94,
+  "name": "Level 94: Wilderness Bastion: The Royal Guard",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.740166925631097,
+      "animationName": "Idle_Loop",
+      "namePrefix": "l94_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.4,
+        0,
+        1.25
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "namePrefix": "l94_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.543018381548489,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l94_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        1.25
+      ],
+      "rotationY": 3.9444441095071845,
+      "animationName": "Interact",
+      "namePrefix": "l94_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 4.34586983746588,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l94_jungle_target_5",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane",
+      "isPatrolling": false
+    }
+  ],
+  "props": []
+}

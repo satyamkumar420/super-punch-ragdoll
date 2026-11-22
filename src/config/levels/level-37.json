@@ -1,0 +1,145 @@
+{
+  "id": 37,
+  "name": "Level 37: Urban Knights Highway Defense",
+  "subtitle": "",
+  "skyColor": [
+    0.64,
+    0.7,
+    0.82,
+    1
+  ],
+  "grassColor": [
+    0.3,
+    0.3,
+    0.35
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.4,
+        0,
+        0.1
+      ],
+      "rotationY": 2.32,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l37_knight_vanguard",
+      "weaponModelPath": "swords/sword.glb",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.64
+      ],
+      "rotationY": -0.08,
+      "animationName": "Sword_Attack",
+      "namePrefix": "l37_knight_champion",
+      "weaponModelPath": "swords/sword_2.glb",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        0.1
+      ],
+      "rotationY": -1.4486232791552935,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l37_knight_paladin",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 0.5,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.1,
+        0,
+        1.49
+      ],
+      "rotationY": 3.141592653589793,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l37_axe_berserker",
+      "weaponModelPath": "axe_gold.glb",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "axe_gold.glb",
+      "swordPosition": [
+        -0.045,
+        0.1,
+        -0.035
+      ],
+      "swordRotation": [
+        -1.2217304763960306,
+        0,
+        0
+      ],
+      "swordScale": 0.7,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "loot_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "flank_crate_left",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.3,
+        0,
+        0.6
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "flank_crate_right",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        2.3,
+        0,
+        0.6
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

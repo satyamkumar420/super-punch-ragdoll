@@ -1,0 +1,83 @@
+{
+  "id": 66,
+  "name": "Level 66: Wildwood Trench: Barrel Fortress",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l66_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.25
+      ],
+      "rotationY": 1.43,
+      "animationName": "Idle_Loop",
+      "namePrefix": "l66_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.68,
+        0,
+        0.8
+      ],
+      "rotationY": -0.73,
+      "animationName": "Sword_Attack",
+      "namePrefix": "l66_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.025,
+        0.095,
+        0.02
+      ],
+      "swordRotation": [
+        -1.3962634015954636,
+        0,
+        0
+      ],
+      "swordScale": 1.1,
+      "isPatrolling": false
+    }
+  ],
+  "props": []
+}

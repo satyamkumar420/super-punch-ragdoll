@@ -1,0 +1,112 @@
+{
+  "id": 41,
+  "name": "Level 41: Midnight Taxi Standoff",
+  "subtitle": "",
+  "skyColor": [
+    0.38,
+    0.44,
+    0.62,
+    1
+  ],
+  "grassColor": [
+    0.28,
+    0.28,
+    0.35
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.2,
+        0,
+        -0.87
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sprint_Loop",
+      "namePrefix": "l41_night_sprinter",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        0.5
+      ],
+      "patrolSpeed": 1.35
+    },
+    {
+      "position": [
+        1.65,
+        0,
+        0.14
+      ],
+      "rotationY": -0.26,
+      "animationName": "Interact",
+      "namePrefix": "l41_cab_driver",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.14,
+        0,
+        1.92
+      ],
+      "rotationY": 0.85,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l41_luggage_kneeler",
+      "scale": 1
+    },
+    {
+      "position": [
+        -1.44,
+        0,
+        1.8
+      ],
+      "rotationY": -1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l41_night_walker",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.3,
+        -0.5
+      ],
+      "patrolSpeed": 0.95
+    }
+  ],
+  "props": [
+    {
+      "name": "taxi_cab",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        2.5,
+        0,
+        2
+      ],
+      "rotationY": -0.22,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "caution_cone",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.73,
+        0,
+        -0.65
+      ],
+      "scale": 0.9,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ]
+}

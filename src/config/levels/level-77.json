@@ -1,0 +1,150 @@
+{
+  "id": 77,
+  "name": "Level 77: Monkey Pass: Dancing Warriors",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.31,
+        0,
+        1.69
+      ],
+      "rotationY": 2.74,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l77_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.43,
+        0,
+        1.37
+      ],
+      "rotationY": 3.14,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l77_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.7,
+        0,
+        0.8
+      ],
+      "rotationY": 3.54,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l77_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.1,
+        0,
+        1.25
+      ],
+      "rotationY": 3.94,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l77_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "nature_bench_frcb",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -0.16,
+        0,
+        1.41
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -3.07177948351002,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_frcb_copy",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        1.18,
+        0,
+        1.49
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -3.07177948351002,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_frcb_copy_copy",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        2.6,
+        0,
+        1.65
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -3.07177948351002,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_frcb_copy_copy_copy",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -2.13,
+        0,
+        2.05
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -3.07177948351002,
+      "rotationZ": 0
+    }
+  ]
+}

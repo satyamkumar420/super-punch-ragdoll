@@ -1,0 +1,111 @@
+{
+  "id": 17,
+  "name": "Level 17: Street Tactical Squad",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -0.97,
+        0,
+        0
+      ],
+      "rotationY": 1.902408884673819,
+      "animationName": "Pistol_Aim_Neutral",
+      "namePrefix": "l17_gunner1",
+      "scale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordPosition": [
+        -0.05,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.85,
+        0,
+        0.2
+      ],
+      "rotationY": -1.7627825445142729,
+      "animationName": "Pistol_Idle_Loop",
+      "namePrefix": "l17_gunner2",
+      "scale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "animationNames": [
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordPosition": [
+        -0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "barrel_left",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -1.7,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "barrel_right",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        1.7,
+        0,
+        0
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

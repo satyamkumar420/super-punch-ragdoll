@@ -1,0 +1,88 @@
+{
+  "id": 27,
+  "name": "Level 27: Campfire Story Circle",
+  "subtitle": "",
+  "skyColor": [
+    0.22,
+    0.25,
+    0.42,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.35,
+    0.24
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.15,
+        0,
+        0.3
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l27_camper_left",
+      "scale": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        -0.55
+      ],
+      "rotationY": 0,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l27_camper_marshmallow",
+      "scale": 1
+    },
+    {
+      "position": [
+        1.15,
+        0,
+        0.3
+      ],
+      "rotationY": -1.2,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l27_camper_singer",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.25,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    },
+    {
+      "name": "room_chair_vxk7",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1.49,
+        0,
+        0.34
+      ],
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0.05235987755982988,
+      "rotationZ": 0
+    }
+  ]
+}

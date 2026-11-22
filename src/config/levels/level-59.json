@@ -1,0 +1,88 @@
+{
+  "id": 59,
+  "name": "Level 59: Primal Valley: The Lookout Tower",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2,
+      "animationName": "Interact",
+      "namePrefix": "l59_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Fixing_Kneeling",
+      "namePrefix": "l59_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        0.8
+      ],
+      "rotationY": -1.94,
+      "animationName": "Interact",
+      "namePrefix": "l59_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "workshop_chest_5ky3",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -0.03,
+        0.01,
+        0.63
+      ],
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ]
+}

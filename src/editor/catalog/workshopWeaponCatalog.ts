@@ -1,0 +1,81 @@
+import type { AssetDef } from '../types';
+
+export const WORKSHOP_WEAPON_ASSETS: AssetDef[] = [
+  // Workshop Props & Containers
+  { id: 'workshop_race_car', name: 'Race Car Chassis', category: 'workshop', modelPath: 'workshop/race_car.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'car' },
+  { id: 'workshop_barrel', name: 'Oil Barrel', category: 'workshop', modelPath: 'workshop/barrel.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'box' },
+  { id: 'workshop_box', name: 'Wooden Crate Box', category: 'workshop', modelPath: 'workshop/box.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'box' },
+  { id: 'workshop_box_large', name: 'Cargo Crate', category: 'workshop', modelPath: 'workshop/box_large.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'box' },
+  { id: 'workshop_box_cardboard', name: 'Cardboard Box', category: 'workshop', modelPath: 'workshop/box_cardboard.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'box' },
+  { id: 'workshop_chest', name: 'Supply Chest', category: 'workshop', modelPath: 'workshop/chest.glb', defaultScale: 1.0, hasCollision: true, castShadow: true, icon: 'box' },
+
+  // Swords
+  {
+    id: 'prop_sword_steel',
+    name: 'Knight Steel Sword',
+    category: 'workshop',
+    modelPath: 'swords/sword.glb',
+    defaultScale: 0.9,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Knight steel broadsword with golden hilt',
+  },
+  {
+    id: 'prop_sword_curved',
+    name: 'Curved Saber Sword',
+    category: 'workshop',
+    modelPath: 'swords/sword_2.glb',
+    defaultScale: 0.24,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Combat saber sword',
+  },
+  {
+    id: 'prop_sword_wood',
+    name: 'Wooden Practice Sword',
+    category: 'workshop',
+    modelPath: 'swords/sword_wood.glb',
+    defaultScale: 0.85,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Wooden sparring training sword',
+  },
+  {
+    id: 'prop_sword_shield',
+    name: 'Sword & Shield Set',
+    category: 'workshop',
+    modelPath: 'swords/sword_shield.glb',
+    defaultScale: 0.8,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Knight broadsword paired with heater shield',
+  },
+
+  // Battleaxes
+  {
+    id: 'prop_axe_diamond',
+    name: 'Diamond Battleaxe',
+    category: 'workshop',
+    modelPath: 'axe_diamond.glb',
+    defaultScale: 0.85,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Double-bearded battleaxe with cyan diamond edge',
+  },
+  {
+    id: 'prop_axe_gold',
+    name: 'Golden Battleaxe',
+    category: 'workshop',
+    modelPath: 'axe_gold.glb',
+    defaultScale: 0.85,
+    hasCollision: true,
+    castShadow: true,
+    icon: 'layers',
+    description: 'Ornate ceremonial battleaxe with polished gold head',
+  },
+];

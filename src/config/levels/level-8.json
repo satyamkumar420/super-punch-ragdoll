@@ -1,0 +1,51 @@
+{
+  "id": 8,
+  "name": "Level 8: Campfire Rest",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        0.9,
+        0,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l8_camper",
+      "scale": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.1,
+      "hasCollision": false,
+      "castShadow": true,
+      "isPunchable": true
+    }
+  ]
+}

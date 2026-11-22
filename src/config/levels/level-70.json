@@ -1,0 +1,77 @@
+{
+  "id": 70,
+  "name": "Level 70: Jungle Citadel: Outer Bastion",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -1.8,
+        0,
+        0.8
+      ],
+      "rotationY": 1.79,
+      "animationName": "Interact",
+      "namePrefix": "l70_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.25
+      ],
+      "rotationY": 3.14,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l70_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        -0.3
+      ],
+      "rotationY": -1.63,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l70_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        0.6,
+        3
+      ],
+      "patrolSpeed": 1.15,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

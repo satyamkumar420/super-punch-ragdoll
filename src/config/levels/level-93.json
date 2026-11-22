@@ -1,0 +1,130 @@
+{
+  "id": 93,
+  "name": "Level 93: Root-Bound Pathway: Triple Barricade",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 2.74,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l93_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        -1.4,
+        0,
+        5.96
+      ],
+      "rotationY": 3.14,
+      "animationName": "Roll_RM",
+      "namePrefix": "l93_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Roll_RM"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.543018381548489,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l93_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 0.6,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.4,
+        0,
+        1.25
+      ],
+      "rotationY": 3.9444441095071845,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l93_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false,
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordPosition": [
+        -0.025,
+        0.02,
+        0.025
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 4.34,
+      "animationName": "Interact",
+      "namePrefix": "l93_jungle_target_5",
+      "scale": 1,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

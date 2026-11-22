@@ -1,0 +1,79 @@
+{
+  "id": 29,
+  "name": "Level 29: Knight Bastion Defense",
+  "subtitle": "",
+  "skyColor": [
+    0.65,
+    0.72,
+    0.85,
+    1
+  ],
+  "grassColor": [
+    0.3,
+    0.4,
+    0.3
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -1.3,
+        0,
+        0
+      ],
+      "rotationY": 1.4,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l29_knight_broadsword",
+      "scale": 1,
+      "swordModelPath": "swords/sword.glb"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.7
+      ],
+      "rotationY": 3.14,
+      "animationName": "Sword_Attack",
+      "namePrefix": "l29_knight_champion",
+      "scale": 1.05,
+      "swordModelPath": "swords/sword_2.glb"
+    },
+    {
+      "position": [
+        1.3,
+        0,
+        0
+      ],
+      "rotationY": -1.3962634015954636,
+      "animationName": "Sword_Idle",
+      "namePrefix": "l29_knight_shield",
+      "scale": 1,
+      "swordModelPath": "swords/sword_shield.glb",
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 0.6,
+      "isPatrolling": false
+    }
+  ],
+  "props": []
+}

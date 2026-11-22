@@ -1,0 +1,94 @@
+{
+  "id": 81,
+  "name": "Level 81: Jungle Crossroads: Traffic Jam",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.1,
+        0,
+        0.11
+      ],
+      "rotationY": 1.57,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l81_jungle_target_1",
+      "scale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.3,
+        -0.9
+      ],
+      "patrolSpeed": 1,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        -0.7,
+        0,
+        1.25
+      ],
+      "rotationY": 1.63,
+      "animationName": "Interact",
+      "namePrefix": "l81_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0.7,
+        0,
+        0.8
+      ],
+      "rotationY": -2.6,
+      "animationName": "Idle_Talking_Loop",
+      "namePrefix": "l81_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.29,
+        0,
+        1.25
+      ],
+      "rotationY": 3.94,
+      "animationName": "Dance_Loop",
+      "namePrefix": "l81_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": []
+}

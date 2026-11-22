@@ -1,0 +1,43 @@
+{
+  "id": 6,
+  "name": "Level 6: Street Runner",
+  "subtitle": "",
+  "skyColor": [
+    0.74,
+    0.85,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.36,
+    0.35,
+    0.42
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "street",
+  "targets": [
+    {
+      "position": [
+        -2,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Jog_Fwd_Loop",
+      "namePrefix": "l6_runner",
+      "scale": 1.05,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        2.2
+      ],
+      "patrolSpeed": 2.2
+    }
+  ],
+  "props": []
+}

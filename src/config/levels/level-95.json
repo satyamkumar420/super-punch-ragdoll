@@ -1,0 +1,143 @@
+{
+  "id": 95,
+  "name": "Level 95: Moonlit Jungle: Night Patrol",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        0.23,
+        0,
+        -0.29
+      ],
+      "rotationY": 1.413716694115407,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l95_jungle_target_1",
+      "scale": 1,
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.52,
+        0.98
+      ],
+      "patrolSpeed": 1.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.4,
+        0.23,
+        1.83
+      ],
+      "rotationY": 3.14,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l95_jungle_target_2",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0.31,
+        1.05
+      ],
+      "rotationY": 3.07,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l95_jungle_target_3",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.01,
+        0.24,
+        1.5
+      ],
+      "rotationY": 2.96,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l95_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    }
+  ],
+  "props": [
+    {
+      "name": "room_table_h4w6",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        0.2,
+        0.09,
+        1.76
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_table_h4w6_copy",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        2.32,
+        0.09,
+        2.16
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_table_h4w6_copy_copy",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -1.33,
+        0.09,
+        2.56
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ]
+}

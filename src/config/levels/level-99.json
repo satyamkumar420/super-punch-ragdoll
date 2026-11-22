@@ -1,0 +1,121 @@
+{
+  "id": 99,
+  "name": "Level 99: Primal Vanguard: The Elite 4",
+  "subtitle": "",
+  "skyColor": [
+    0.4,
+    0.72,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.48,
+    0.16
+  ],
+  "ammo": 999,
+  "gunSpawnPos": [
+    0,
+    -1.35,
+    0
+  ],
+  "environmentType": "jungle_forest",
+  "targets": [
+    {
+      "position": [
+        -2.45,
+        0,
+        0.8
+      ],
+      "rotationY": 1.57,
+      "animationName": "Crouch_Idle_Loop",
+      "namePrefix": "l99_jungle_target_1",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        -0.67,
+        0,
+        0.52
+      ],
+      "rotationY": 3.04,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l99_jungle_target_2",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        0.26,
+        0,
+        0.65
+      ],
+      "rotationY": -3.1,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l99_jungle_target_3",
+      "scale": 1,
+      "isPatrolling": false,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        1.08,
+        0,
+        0.69
+      ],
+      "rotationY": 3.1,
+      "animationName": "Sitting_Idle_Loop",
+      "namePrefix": "l99_jungle_target_4",
+      "scale": 1,
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "rotationY": 4.34,
+      "animationName": "Idle_Loop",
+      "namePrefix": "l99_jungle_target_5",
+      "scale": 1,
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "props": [
+    {
+      "name": "room_couch_bpy6",
+      "modelPath": "room_dinner/couch.glb",
+      "position": [
+        0.2,
+        0,
+        1.52
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.12413936106985,
+      "rotationZ": 0
+    }
+  ]
+}
